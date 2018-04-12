@@ -8,5 +8,5 @@ However, there are many private picture from my own, so I am not going to share 
 If you are intrested in trainig by yourself, you can use google photo crawler to download image and label my your self
 https://github.com/hellock/icrawler
 
-I also provide simple label tool to help you label your image
+
 
