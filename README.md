@@ -11,3 +11,12 @@ https://github.com/hellock/icrawler
 I also provided simple pretrained model if you want to use.
 
 
+Here is the evaluation metric
+
+
+                 precision    recall  f1-score   support
+
+              f       0.90      0.99      0.94       159
+              m       0.99      0.91      0.95       189
+
+     avg / total       0.95      0.95      0.95       348
