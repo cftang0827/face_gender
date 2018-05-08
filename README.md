@@ -14,9 +14,27 @@ I also provided simple pretrained model if you want to use.
 Here is the evaluation metric
 
 
-                 precision    recall  f1-score   support
+                   precision    recall  f1-score   support
 
-              f       0.90      0.99      0.94       159
-              m       0.99      0.91      0.95       189
+              f        0.90      0.99      0.94       159
+              m        0.99      0.91      0.95       189
 
      avg / total       0.95      0.95      0.95       348
+
+## Environment 
+* MacOS or Ubuntu
+* face_recognition 1.2.2
+* dlib 19.10.0
+* Python 3.6.4
+* sklearn 0.19.1
+* skimage 0.13.1
+
+## How to run the code and set prerequisite ?
+First, you need to set up the environment of dlib, sklearn and face_recognition, however, you cannot simply use ```pip install ``` to install dlib, you should build it from source or use ```conda install -c menpo dlib``` to install it. It is a tricky step, so I prepare the whole installation script for opencv, dlib, face_recognition and the other useful library for computer vision and machine learning in Python 3.6, here is the link
+
+https://github.com/cftang0827/python-computer-vision-env_install
+
+Or if you don't want to use whole script, you could follow the installation step from face_recognition API
+https://github.com/ageitgey/face_recognition#installation-options
+
+It's quite simple and useful
