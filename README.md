@@ -1,4 +1,6 @@
 # gender_classifier_dlib_transfer_learning
+[![codebeat badge](https://codebeat.co/badges/1ef6ec71-05e5-4b11-8d14-af0eb96a067b)](https://codebeat.co/projects/github-com-cftang0827-face_gender-master)
+
 A simple demo of gender classifier by using dlib face recognition model as a feature extractor
 
 By using dlib face recognition model, we can do transfer learning to classify gender of face, using sklearn ML framwork.
